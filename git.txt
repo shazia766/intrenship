@@ -1,0 +1,10 @@
+git init
+git add .
+git config --global user.email "shaziafathima555@gmail.com"
+git commit -m "first commit"
+git remote add origin git@github.com:shazia766/intrenship.git
+git remote set-url origin https://github.com/shazia766/intrenship.git
+git push -f origin master
+git status
+git pull
+git clone https://github.com/shazia766/intrenship.git
